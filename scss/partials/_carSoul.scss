@@ -1,0 +1,12 @@
+.imgCarsoul {
+  transition: 2s;
+  &:hover {
+    h5 {
+      font-size: 5rem;
+      font-weight: bold;
+    }
+    p {
+      font-size: 3rem;
+    }
+  }
+}

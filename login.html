@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <title>About The Random Company</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="nav">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+
+      <a class="navbar-brand" href="#">The Random Company</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Products
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="randomProduct1.html">Random Product 1</a>
+              <a class="dropdown-item" href="#">Random Product 1</a>
+              <a class="dropdown-item" href="#">Random Product 1</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Random group 1 of products</a>
+              <a class="dropdown-item" href="#">Random group 2 of products</a>
+              <a class="dropdown-item" href="#">Random group 3 of products</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Random Service 1</a>
+              <a class="dropdown-item" href="#">Random Service 1</a>
+              <a class="dropdown-item" href="#">Random Service 1</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Random group 1 of Services</a>
+              <a class="dropdown-item" href="#">Random group 2 of Services</a>
+              <a class="dropdown-item" href="#">Random group 3 of Services</a>
+            </div>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="Assignment3.html">Assignment-3 <span class="sr-only">(current)</span></a>
+          </li>
+          </li>
+          <li class="nav-item active my-2 my-lg-0">
+            <a class="nav-link" href="login.html">Log in<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-6">
+        <h3>Register</h3>
+        <hr>
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Password</label>
+              <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Name</label>
+            <input type="text" class="form-control" id="userName" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <label for="inputAddress2">Mobile Number</label>
+            <input type="text" class="form-control" id="userContact" placeholder="+91 xxx xxx xxxx">
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                I accept the random terms of service
+              </label>
+            </div>
+          </div>
+          <input class="btn btn-primary" type="reset" value="Reset">
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </form>
+      </div>
+
+      <div class="col-xl-6">
+        <h3>Log in</h3>
+        <hr>
+        <form class="form">
+
+          <label for="inputEmail4">Email</label>
+          <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">@</div>
+            </div>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+          </div>
+
+          <div class="">
+            <label for="inputPassword5">Password</label>
+            <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+            <small id="passwordHelpBlock" class="form-text text-muted">
+              Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+            </small>
+            <br>
+          </div>
+
+          <div class="form-check mb-2 mr-sm-2">
+            <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+            <label class="form-check-label" for="inlineFormCheck">
+              Remember me
+            </label>
+          </div>
+
+          <button type="submit" class="btn btn-primary mb-2">Submit</button>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/tether.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.site.js"></script>
+</body>
+
+</html>

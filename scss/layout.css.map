@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACE,oBAAK;EACH,UAAU,EAAE,IAAI;AAElB,iBAAE;EACA,UAAU,EAAE,OAAO;EACnB,YAAY,EAAE,UAAU",
+"sources": ["partials/_randomBody.scss"],
+"names": [],
+"file": "layout.css"
+}

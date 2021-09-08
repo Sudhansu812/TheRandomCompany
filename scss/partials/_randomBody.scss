@@ -1,0 +1,26 @@
+.randomBodyText {
+  p {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+
+  a {
+    color: white;
+    &:hover {
+      color: blue;
+    }
+  }
+}
+
+body {
+  margin-top: 5rem;
+}
